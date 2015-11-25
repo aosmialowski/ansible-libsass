@@ -10,7 +10,7 @@
     - automake
     - libtool
 
-- name: Clone libsass sources repository
+- name: Clone libsass repository
   git:
     repo: https://github.com/sass/libsass.git
     dest: /usr/src/libsass
